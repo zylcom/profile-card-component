@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@use "sass:map";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #19a2ae;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.container .bg-pattern-top {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-45%) translateY(-65%) rotate(5deg);
+          transform: translateX(-45%) translateY(-65%) rotate(5deg);
+  z-index: -1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container .card {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #2d3248;
+  z-index: 1;
+  -webkit-box-shadow: 6.9px 6.9px 18.7px rgba(0, 0, 0, 0.036), 15px 15px 24px rgba(0, 0, 0, 0.06);
+          box-shadow: 6.9px 6.9px 18.7px rgba(0, 0, 0, 0.036), 15px 15px 24px rgba(0, 0, 0, 0.06);
+}
+
+.container .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card-header .bg-pattern-card {
+  width: 100%;
+}
+
+.container .card-header .profile-img {
+  width: auto;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  -webkit-transform: translateY(-55px);
+          transform: translateY(-55px);
+}
+
+.container .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.container .card-body .name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container .card-body .name .age {
+  font-weight: 400;
+}
+
+.container .card-body .country {
+  font-size: 15px;
+  margin: 10px 0 28px 0;
+}
+
+.container .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  padding: 25px 20px;
+  border-top: 0.5px solid #969696;
+}
+
+.container .card-footer .follower,
+.container .card-footer .like,
+.container .card-footer .post {
+  font-size: 18px;
+  margin: 0 5px;
+  letter-spacing: 2px;
+}
+
+.container .card-footer .follower-count, .container .card-footer .follower-count, .container .card-footer .follower-count,
+.container .card-footer .like-count,
+.container .card-footer .like-count,
+.container .card-footer .like-count,
+.container .card-footer .post-count,
+.container .card-footer .post-count,
+.container .card-footer .post-count {
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.container .card-footer .follower .desc,
+.container .card-footer .like .desc,
+.container .card-footer .post .desc {
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.container .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.container .attribution a {
+  color: #3e52a3;
+}
+
+.container .bg-pattern-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateX(30%) translateY(60%) rotate(-20deg);
+          transform: translateX(30%) translateY(60%) rotate(-20deg);
+  z-index: -1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media screen and (min-width: 992px) {
+  .container .bg-pattern-bottom {
+    width: 80%;
+    -webkit-transform: translateX(25%) translateY(70%) rotate(-15deg);
+            transform: translateX(25%) translateY(70%) rotate(-15deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
