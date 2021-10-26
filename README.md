@@ -21,8 +21,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![desktop](#)
-![mobile](#)
+- Desktop
+
+  ![desktop](https://user-images.githubusercontent.com/67725925/138810662-ddddc569-f806-433b-97fa-1c68eb43bb00.png)
+
+- Mobile
+
+  ![mobile](https://user-images.githubusercontent.com/67725925/138810765-b12212f6-bc1f-4c28-93af-e4653bb28259.png)
 
 ### Links
 
