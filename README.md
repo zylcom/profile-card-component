@@ -31,7 +31,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-scss-7hObgwLDi](https://www.frontendmentor.io/solutions/profile-card-component-using-scss-7hObgwLDi)
 - Live Site URL: [https://zylcom.github.io/profile-card-component/](https://zylcom.github.io/profile-card-component/)
 
 ## My process
